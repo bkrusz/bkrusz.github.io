@@ -1,0 +1,65 @@
+body {
+    background-color: #363538;
+    color: #eed9b7;
+    font-family: "JetBrains Mono", monospace;
+  }
+  
+  h1 {
+    font-size: 30px;
+  }
+  
+  p {
+    font-size: 18px;
+    text-align: justify;
+  }
+  
+  #navigation {
+    position: relative;
+    left: 0px;
+    height: 40px;
+    background-color: dimgray;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: dimgray;
+    text-align: center;
+    align-items: center;
+  }
+  
+  #navigation li {
+    float: left;
+    display: inline-block;
+    align-items: center;
+  }
+  
+  #navigation li a {
+    display: block;
+    color: beige;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #navigation li a:hover {
+    background-color: #222;
+  }
+  
+  .centered-page {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .centered-page h1 {
+   text-align: center;
+  }
+  
+  .date {
+    text-align: center;
+  }
